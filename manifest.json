@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Elements",
+    "description": "Extension to hide elements on a webpage",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
