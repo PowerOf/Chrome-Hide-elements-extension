@@ -2,7 +2,7 @@
 
 This project is the first step on our way to create products that are highly usable, and put the user first.
 
-At the moment the extension is capable to hide social media posts on 1 *one* website, which is reddit.
+At the moment the extension is capable to hide social media posts on a single website, which is reddit.
 The happy path is for the user to manually right click anywhere within the post and choose 'Hide Element'
 
 This is not very convenient at the moment but it's something that will be developed further.
